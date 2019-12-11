@@ -1,0 +1,216 @@
+* {
+    margin: auto;
+    padding: 2px;
+    font-family: 'Bad Script', cursive;
+    /* background-color: #edfffc; */
+}
+.row {
+    height: 15%;
+    width: 50%;
+    position: relative;
+    margin: auto;
+    top: 30px;
+
+    /* background-color: rgba(255, 0, 0, 0.2); */
+}
+.box {
+    /* float: left; */
+    width: 600px;
+    height: 374px;
+    margin-top: 30px;
+    background-color: #69a3c1;
+    background-size: contain;
+    transition: 1.5s;
+}
+
+.box:hover {
+    transform: scale(1.01);
+}
+
+#main-nav{
+    border: 3px solid lightseagreen;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    margin-top: 100px;
+    background-color: #edfffc;
+}
+
+#direction{
+    color: white;
+    background-color: cadetblue;
+    width: 140px;
+    /* margin-top: 3%; */
+    margin: auto;
+    top: 30px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+#main-nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#banner {
+
+    position: relative;
+    z-index: 1;
+}
+
+#main-nav li {
+    list-style: none;
+    font-size: calc(1em + 1vw);
+    margin: .2em 0;
+    /* border: 2px solid white; */
+    padding: 2px;
+    font-weight: 100;
+}
+
+#main-nav a {
+    color: black;
+    font-size: .6em;
+    display: block;
+    align-items: center;
+}
+
+#main-nav li:hover {
+    color: white;
+    background-color: #7bd1c3;
+    /* border: 2px solid white; */
+    border-radius: 20px;
+}
+#main-nav li:hover a {
+    color: white;
+}
+
+#main-nav-ul {
+
+    width: 70%;
+}
+
+#diagram {
+    transform: scale(1.2);
+    padding: 80px 0 60px 0;
+    margin: 20px;
+}
+
+#sketch{
+    position: relative;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+canvas{
+    display: block;
+}
+
+@media only screen and (max-width: 700px)  {
+
+    #main-nav ul {
+        /* height: 20%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+
+    #main-nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+    }
+
+    
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)  {
+
+    #main-nav ul {
+        /* height: 20%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+
+    #main-nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 6em;
+    }
+
+
+}
+
+/* #picture{
+    border: 3px solid #7bd1c3;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5%;
+    margin-top: 200px;
+} */
+
+
+
+#sketch{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+canvas{
+    display: block;
+}
+.first{
+    background-image: url("../images/unity/Screen\ Shot\ 2019-12-11\ at\ 5.08.18\ PM.png");
+    background-size: fill;
+    background-position: 50% 50%;
+}
+
+.second{
+    background-image: url("../images/unity/Screen\ Shot\ 2019-12-11\ at\ 5.08.55\ PM.png");
+    background-size: fill;
+    background-position: 50% 50%;
+}
+
+.third{
+    background-image: url("../images/unity/Screen\ Shot\ 2019-12-11\ at\ 5.09.13\ PM.png");
+    background-size: fill;
+    background-position: 50% 50%;
+}
+
+.fourth{
+    background-image: url("../images/unity/Screen\ Shot\ 2019-12-11\ at\ 5.10.36\ PM.png");
+    background-size: fill;
+    background-position: 50% 50%;
+}
+.fifth{
+    background-image: url("../images/unity/Screen\ Shot\ 2019-12-11\ at\ 5.10.59\ PM.png");
+    background-size: fill;
+    background-position: 50% 50%;
+}
+.sixth{
+    background-image: url("../images/unity/Screen\ Shot\ 2019-12-11\ at\ 5.11.35\ PM.png");
+    background-size: fill;
+    background-position: 50% 50%;
+}
+.seventh{
+    background-image: url("../images/unity/Screen\ Shot\ 2019-12-11\ at\ 5.12.57\ PM.png");
+    background-size: fill;
+    background-position: 50% 50%;
+}
